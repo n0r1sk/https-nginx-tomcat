@@ -86,3 +86,5 @@ In the web application you have to modify the ```web.xml``` according to the fol
 # In the end, show me how it looks like
 
 If you open your browser and point it to [http://https-nginx-tomcat.com](http://https-nginx-tomcat.com) you will be automatically redirected to https://https-nginx-tomcat.com/hello. Look inside the ```nginx.conf```. After you accept the self issued certificate you should see the following page, which shows you, that https is working and the Apache Tomcat is seeing the correct protocol header. (look at https in the text on the site)
+
+![screenshot](https://github.com/n0r1sk/https-nginx-tomcat/raw/master/screenshot.png)
