@@ -14,8 +14,3 @@ It seems that a lot of people out there have problems to connect a Nginx load ba
 
 # Web application information
 
-Since we are not web developers (we are Ops), we took the web application code from [this site](https://pubs.vmware.com/vfabric52/index.jsp#com.vmware.vfabric.tc-server.2.8/getting-started/tutwebapp-creating-deploying.html). We made slight modifications to the ```web.xml``` file and to the ```Hello.java``` to fit our needs for this showcase project.
-
-## Build
-
-To build the web application you will need **Java** and **Ant**!
