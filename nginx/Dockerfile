@@ -1,8 +1,5 @@
 FROM nginx
 
-MAINTAINER Mario Kleinsasser "mario.kleinsasser@gmail.com"
-MAINTAINER Bernhard Rausch "rausch.bernhard@gmail.com"
+COPY ./conf/nginx.conf /etc/nginx/nginx.conf
+COPY ./ssl/ /etc/nginx/ssl/
 
-RUN apt-get update && apt-get -y install dnsutils net-tools procps
-
-CMD ["nginx", "-g", "daemon off;"]

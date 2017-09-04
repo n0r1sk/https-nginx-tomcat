@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     image: n0r1sk-tomcat:latest
     ports:
-      - 30011
+      - "11111:8080"
 
   nginx:
     build:
@@ -15,5 +15,5 @@ services:
       dockerfile: Dockerfile
     image: n0r1sk-nginx:latest
     ports:
-      - 80
-      - 443
+      - "80:80"
+      - "443:443"
