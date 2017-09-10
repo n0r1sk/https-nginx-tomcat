@@ -2,7 +2,7 @@
 Showcase Docker build and compose project for Nginx https reverse load balancer for Apache Tomcat
 
 # Warning
-Do not use this project for productive usage. The code, the configuration and the SSL certificates are spread to the public. This is a showcase project which helps to understand the blog post on [our web site](https://www.n0r1sk.com/ssl-offloading-nginx-apache-tomcat-showcase/)!
+Do not use this project for productive usage. The code, the configuration and the SSL certificates are spread to the public. This is a showcase project which helps to understand the blog post on [our web site](https://www.n0r1sk.com/index.php/2017/07/07/nginx-reverse-proxy-with-ssl-offloading-and-apache-tomcat-backends/)!
 
 # General information
 
